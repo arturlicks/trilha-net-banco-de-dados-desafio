@@ -35,7 +35,7 @@ JOIN Generos ON FilmesGenero.IdGenero= generos.id;
 SELECT Filmes.Nome, Generos.Genero
 FROM FilmesGenero
 JOIN Filmes ON FilmesGenero.IdFilme = Filmes.id
-JOIN Generos ON FilmesGenero.IdGenero= generos.id WHERE Generos.Genero = 'Mistério';
+JOIN Generos ON FilmesGenero.IdGenero= generos.id WHERE Generos.Genero = 'MistÃ©rio';
 
 -- 12
 SELECT Filmes.Nome, Atores.PrimeiroNome, Atores.UltimoNome, ElencoFilme.Papel
